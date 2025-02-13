@@ -8,7 +8,7 @@ from drf_yasg import openapi
 router = routers.DefaultRouter()
 router.register('estudantes', EstudanteViewSet, 'Estudantes')
 router.register('cursos', CursoViewSet, 'Cursos')
-router.register('matricula', MatriculaViewSet, 'Matricula')
+router.register('matricula', MatriculaViewSet, 'Matriculas')
 
 schema_view = get_schema_view(
     openapi.Info(
